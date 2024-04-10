@@ -1,4 +1,3 @@
-from utils import db_connect
-engine = db_connect()
+import edastatmil_milser as EDA
 
-# your code here
+EDA.__version__
